@@ -7,8 +7,8 @@ import Image from '../Component/Image'
 import Simg from '../assets/service.png'
 import Scard from '../Component/Scard'
 import Group from '../assets/Group.png'
-import Group1 from '../assets/Group1.png'
-import Group2 from '../assets/Group2.png'
+import Group1 from '../assets/group1.png'
+import Group2 from '../assets/group2.png'
 
 const Service = () => {
   return (
