@@ -21,6 +21,7 @@ export default {
       backgroundImage :{
           NB: "url('/src/assets/NB.png')",
           Cimg: "url('/src/assets/Cimg.png')",
+          Gimg: "url('/src/assets/Gimg.png')",
       },
       keyframes: {
     BT: {

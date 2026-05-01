@@ -5,8 +5,8 @@ import Parah from '../Component/Parah'
 const Wcard = ({src1 , text1 , Text}) => {
   return (
     <div>
-      <div className='w-[450px] h-[511px] '>
-<div className='w-[450px] h-[326px] rounded-[20px] bg-[#C4C4C4]'>
+      <div className='w-[430px] h-[511px] '>
+<div className='w-[430px] h-[326px] rounded-[20px] bg-[#C4C4C4] cursor-pointer'>
 <div className='w-full h-full'>
     <Image src={src1}/>
 </div>

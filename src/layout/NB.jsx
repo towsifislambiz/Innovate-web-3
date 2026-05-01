@@ -44,7 +44,7 @@ const NB = () => {
             </div>
 
             <div>
-              <Button Text='Contact Us'/>
+              <Button className='border-white text-white' Text='Contact Us'/>
             </div>
 
           </div>

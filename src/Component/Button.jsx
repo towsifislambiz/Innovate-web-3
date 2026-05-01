@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Button = ({className , Text}) => {
+const Button = ({ className, Text }) => {
   return (
-   <div>
-     <button className={`bg-transparent text-white font-nun text-lg font-semibold rounded-[18px] border border-white py-[16px] px-[32px] ${className}`}>
-        {Text}
+    <button
+      className={`bg-transparent font-nun text-lg font-semibold rounded-[18px] border py-[16px] px-[32px] ${className}`}
+    >
+      {Text}
     </button>
-   </div>
   )
 }
 
