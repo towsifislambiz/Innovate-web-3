@@ -5,7 +5,7 @@ import Heading from '../Component/Heading'
 import Parah from '../Component/Parah'
 import Routateborder from '../Component/Routateborder'
 import Image from '../Component/Image'
-import FL from '../assets/Fl.png'
+import FL from '../assets/FL.png'
 
 const Feature = () => {
 const cardData = [
