@@ -22,20 +22,56 @@ export default {
           NB: "url('/src/assets/NB.png')",
           Cimg: "url('/src/assets/Cimg.png')",
           Gimg: "url('/src/assets/Gimg.png')",
+          NBimg1: "url('/src/assets/NBimg1.png')",
+          Getimg1: "url('/src/assets/Getimg1.png')",
+          Wimg1: "url('/src/assets/Wimg1.png')",
+          Wimg2: "url('/src/assets/Wimg2.png')",
+          Wimg3: "url('/src/assets/Wimg3.png')",
       },
       keyframes: {
-    BT: {
-      '0%': { height: '0px' },
-      '100%': { height: '700px' },
-    },
+
     rotateBorder: {
           '0%': { transform: 'rotate(0deg)' },
           '100%': { transform: 'rotate(360deg)' },
         },
+        moveBox: {
+          '0%': {
+            top: '600px',
+            right: '-300px',
+            transform: 'rotate(-5deg)',
+          },
+          '100%': {
+            top: '216px',
+            right: '100px',
+            transform: 'rotate(-5deg)',
+          },
+        },
+         growScale: {
+          '0%': {
+            transform: 'scaleY(0)',
+          },
+          '100%': {
+            transform: 'scaleY(1)',
+          },
+        },
+         moveBox2: {
+          '0%': {
+            top : '0px',
+            left : '0px',
+            opacity : 0
+          },
+          '100%': {
+            top : '207px',
+            left : '400px',
+            opacity : 1
+          },
+        },
   },
    animation: {
-    BT: 'BT .7s ease-out forwards',
       rotateBorder: 'rotateBorder 1s linear infinite',
+     moveBox: 'moveBox 1s ease-out forwards',
+     moveBox2: 'moveBox2 1s ease-out forwards',
+      BT: 'growScale 1s ease-out forwards',
   },
     },
   },
