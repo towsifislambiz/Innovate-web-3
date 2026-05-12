@@ -22,7 +22,7 @@ const Routateborder = ({ className, Text, target }) => {
 
   return (
 <div>
-  <div className='w-[150px] h-[170px]  flex items-center justify-center flex-col'>
+  <div className='w-[120px] h-[140px] lg:w-[150px] lg:h-[170px]  flex items-center justify-center flex-col'>
     
     <span className='w-[100px] h-[100px] rounded-full bg-[#E4F0FF] inline-block relative'>
       
@@ -32,7 +32,7 @@ const Routateborder = ({ className, Text, target }) => {
       {/* white circle + number */}
       <span className='bg-white w-[85px] h-[85px] inline-block rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center'>
            
-        <span className='text-[18px] font-medium  font-nun text-c1'>
+        <span className='text-base lg:text-lg font-medium  font-nun text-c1'>
           {count} %
         </span>
 

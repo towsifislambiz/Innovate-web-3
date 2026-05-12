@@ -11,7 +11,7 @@ const Hcard = ({ className, className2, src1, Text, className3 }) => {
         
         {/* triangle */}
         <div
-          className={`
+          className={`hidden lg:block
           w-0 h-0 absolute bottom-0 left-1/2 -translate-x-1/2
           border-l-[30px] border-r-[30px] border-t-[50px]
           border-l-transparent border-r-transparent

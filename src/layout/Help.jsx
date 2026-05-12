@@ -14,7 +14,7 @@ import Button from '../Component/Button'
 
 const Help = () => {
   return (
-  <section className='bg-[#F1FBFB] pt-[120px] '>
+  <section className='bg-[#F1FBFB] pt-[60px] lg:pt-[120px] '>
 <Container>
    <div className='flex flex-col items-center '>
      <Subtitle text='Our process'/>
@@ -22,7 +22,7 @@ const Help = () => {
    </div>
 
 
-   <div className='pb-[100px] flex gap-6'>
+   <div className=' pb-[100px] flex  flex-wrap justify-center lg:justify-start lg:flex-nowrap  gap-y-6 lg:gap-y-0 lg:gap-6'>
     <Hcard className2=' bg-[#F8A64C] ' className='border-t-[#F8A64C]' src1={Himg} Text='Real time analytics'/>
     <Hcard className3='text-c1' className2=' bg-[#F0EDFF] ' className='border-t-[#F0EDFF]' src1={Himg1} Text='Real time analytics'/>
     <Hcard className3='text-c1'  className2=' bg-[#E8FCF2] ' className='border-t-[#E8FCF2]' src1={Himg2} Text='Real time analytics'/>
@@ -31,17 +31,22 @@ const Help = () => {
    
    </div>
 
-   <div className='w-full flex  pb-[125px]'>
-<div className='w-5/12 '>
-<div className='w-[340px] h-[340px]'>
+   <div className='w-full flex  flex-wrap pb-[60px] lg:pb-[125px]'>
+<div className='lg:w-5/12 flex flex-col items-center w-full lg:block'>
+<div className='w-[300px] h-[200px] lg:w-[340px] lg:h-[340px]'>
 <Image className='w-full h-full cursor-pointer' src={HB}/>
 </div>
 </div>
-<div className='w-7/12'>
-<Heading Text='Real time analytics'/>
-<Parah className='w-[596px] leading-[200%] pt-6 pb-12' Text="Analyzing negative materials about your brand and addressing them with sentiment analysis and press release distribution.Turn your visitors into customers with our team of experts. We'll analyze your website and develop a suitable conversion-rate strategy."/>
 
+<div className='lg:w-7/12'>
+<div className='mt-[150px] lg:mt-0'>
+  <Heading className='text-center lg:text-start' Text='Real time analytics'/>
+<Parah className='lg:w-[596px] leading:[150%] text-center mx-5 lg:text-start lg:mx-0 lg:leading-[200%] pt-6 pb-12' Text="Analyzing negative materials about your brand and addressing them with sentiment analysis and press release distribution.Turn your visitors into customers with our team of experts. We'll analyze your website and develop a suitable conversion-rate strategy."/>
+<div className='flex justify-center lg:block'> 
+  
 <Button className='bg-c2 py-[25px] px-[30px] text-white border-none' Text='Analyze website'/>
+</div>
+</div>
 </div>
    </div>
 </Container>
